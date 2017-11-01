@@ -1,0 +1,141 @@
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #0288D1;
+  position: absolute;
+  z-index: -1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.demo-main {
+  margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 56px 56px;
+  margin-bottom: 56px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+
+.demo-content h3 {
+  margin-top: 48px;
+}
+
+.demo-footer {
+  padding-left: 40px;
+}
+
+.demo-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+
+
+/*CUSTOM*/
+.app-theme-bg{
+    background-color: #488AFF;
+}
+.button-normal{
+    background-color: #EEEEEE;
+    color: #212121;
+}
+.button-normal:hover{
+    background-color: #EEEEEE;
+}
+.nav-link{
+    font-weight: 600;
+}
+
+/*To remove green bg in menu button*/
+.mdl-layout__header .mdl-layout__drawer-button {
+    background-color: transparent !important; 
+}
+
+a{
+    color: #488AFF;
+}
+.link{
+    color: #488AFF !important;
+}
+.size-14{
+  font-size: 14px !important;
+}
+
+.custom-container{
+  padding-top: 7vh;
+}
+
+/*Change scroll tabs chevron-left -right  colors*/
+.mdl-layout__tab-bar-button{
+  background-color: #488AFF !important;
+}
+
+/*acg-content*/
+.acg-ribbon{
+  width: 100%;
+  height: 30vh;
+  background-color: #0288D1;
+  position: absolute;
+  z-index: -1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.team-photo{
+  width: 200px;
+  height: 200px;
+  background-color: #d1d1d1;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.flex-hv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 24px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-google-plus {
+    background: #DD4B39;
+    color: white;
+}
+.fa-github {
+    background: #323131;
+    color: white;
+}
