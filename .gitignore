@@ -28,23 +28,6 @@ plugins/android.json
 plugins/ios.json
 $RECYCLE.BIN/
 
-src/
-resources/
-typings/
-.editorconfig
-.firebaserc
-androiddebugkey
-config.xml
-copy.config.js
-debug.log
-firebase.json
-ionic.config.json
-package-lock.json
-package.json
-README.md
-showcaseit.keystore
-tsconfig.json
-tslint.json
 
 .DS_Store
 Thumbs.db
